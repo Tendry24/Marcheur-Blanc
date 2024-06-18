@@ -3,7 +3,7 @@ package org.marcheur;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Carte {
+public class Environnement {
   private final Set<Rue> ensembleDeRue = new HashSet<>();
 
   public void ajouterUneRue(String nom, Lieu a, Lieu b){
